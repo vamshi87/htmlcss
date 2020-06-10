@@ -1,5 +1,7 @@
 // front end script - for websites
-alert('first js alert');
+
+//alert('first js alert');
+
 //Version 1.1
 //Version 1.2
 //Version 1.3
@@ -15,6 +17,14 @@ alert('first js alert');
    js 
    comment
 */
+
+let firstName ='X';
+let lastName= 'Y';
+
+let fullname = firstName + ' ' + lastName;
+
+console.log(fullname);
+
 
 
 
