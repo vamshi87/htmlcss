@@ -1,6 +1,13 @@
-// front end script - for websites
+// js is a front end script - for websites
 
-//alert('first js alert');
+// single line js comment
+
+/* multi 
+   line 
+   js 
+   comment
+*/
+
 
 //Version 1.1
 //Version 1.2
@@ -10,16 +17,12 @@
 //Version 1.6
 //sfgsdfgsdfsdf
 
-//single line js comment
 
-/* multi 
-   line 
-   js 
-   comment
-*/
 
-let firstName ='X';
-let lastName= 'Y';
+//alert('first js alert function');
+
+let firstName = 'X';
+let lastName = 'Y';
 
 let fullname = firstName + ' ' + lastName;
 
