@@ -23,36 +23,54 @@
 
   <a href="https://www.w3schools.com/html/">This is a link with (a) tag </a>
 
-  <p>HTML images are defined with the img tag: and link can be given to img using (a) tag: 
+  <p>HTML images are defined with the img tag: and link can be given to img using (a) tag:
     <a href="https://www.w3schools.com">
       <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
     </a>
   </p>
-  <a x ></a>
+  <a x></a>
 
   <p>HTML buttons are defined with the button tag:</p>
 
-<button>Simple button</button>
+  <button>Simple button</button>
 
-<h2>An Unordered HTML List</h2>
+  <h2>An Unordered HTML List</h2>
 
-<ul>
-  <li>A</li>
-  <li>B</li>
-  <li>C</li>
-</ul>  
+  <ul>
+    <li>A</li>
+    <li>B</li>
+    <li>C</li>
+  </ul>
 
-<h2>An Ordered HTML List</h2>
+  <h2>An Ordered HTML List</h2>
 
-<ol>
-  <li>X</li>
-  <li>Y</li>
-  <li>Z</li>
-</ol> 
+  <ol>
+    <li>X</li>
+    <li>Y</li>
+    <li>Z</li>
+  </ol>
+
+  <pre>
+    Like button using Reactjs
+  </pre>
+
+  <div id="like_button_container">
+
+  </div>
 
 
   <!-- external java script file is added in html using script tag ...with src ...-->
   <script src="script.js"></script>
+
+
+  <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+
 
 
 </body>
